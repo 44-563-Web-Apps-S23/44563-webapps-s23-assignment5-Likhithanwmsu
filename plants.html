@@ -2,217 +2,264 @@
 <html lang="en">
 
 <head>
-<title>This is Bootstrap Assignment</title>
+    <title>This is Bootstrap Assignment</title>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-    crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-<h2>Plants by Likhitha Maheswari Chebrolu</h2>
-<div class="container">
-    <div class="row">
-        <div class="col-sm-2">
-            C
-        </div>
-        <div class="col-sm-2">
-            H
-        </div>
-        <div class="col-sm-2">
-            E
-        </div>
-        <div class="col-sm-2">
-            B
-        </div>
-        <div class="col-sm-2">
-            R
-        </div>
-        <div class="col-sm-2">
-            O
-        </div>
+
+    <h2>Plants by Likhitha Maheswari Chebrolu</h2>
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="plants.html">Interesting Plants</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#plantId"
+                    aria-controls="plantId" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="plantId">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-link active"><a href="basic.html"> Basic</a></li>
+                        <li class="nav-link active"><a href="advanced.html">Advanced</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
         <div class="row">
-            <div class="col-md">
-                CALLIANDRA
+            <div class="col-sm-2">
+                C
             </div>
-            <div class="col-md">
-                HABENARIA
+            <div class="col-sm-2">
+                H
             </div>
-            <div class="col-md">
-                ERICA
+            <div class="col-sm-2">
+                E
             </div>
-            <div class="col-md">
-                BAMBUSA
+            <div class="col-sm-2">
+                B
             </div>
-            <div class="col-md">
-                RATIBIDA
+            <div class="col-sm-2">
+                R
             </div>
-            <div class="col-md">
-                OPHIOPOGON
+            <div class="col-sm-2">
+                O
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    CALLIANDRA
+                </div>
+                <div class="col-md">
+                    HABENARIA
+                </div>
+                <div class="col-md">
+                    ERICA
+                </div>
+                <div class="col-md">
+                    BAMBUSA
+                </div>
+                <div class="col-md">
+                    RATIBIDA
+                </div>
+                <div class="col-md">
+                    OPHIOPOGON
+                </div>
+            </div>
+        </div>
+        <p>The plant names row breaks first.<br>Explanation:<br>The reason for the alignment of plant names vertically
+            is because of using division tags in the
+            document as well as reducing the screen size in the browser.Due to this the class with md rows break first
+            and indent vertically on one another followed by the class
+            with sm rows.The alignment of the content in the divs become vertical when the screen size is less than the
+            given condition in BootStrap.</p>
+    </div>
+    <div class="container">
+        <img class="img-fluid" src="OPHIOPOGON.jpg" height="400px" width="300px" />
+        <img class="img-fluid" src="RATIBIDA.jpg" height="400px" width="300px" />
+        <img class="img-fluid" src="BAMBUSA.jpg" height="400px" width="300px" />
+    </div>
+    <div class="container">
+        <img class="img-thumbnail" src="OPHIOPOGON.jpg" height="400px" width="300px" />
+        <img class="img-thumbnail" src="RATIBIDA.jpg" height="400px" width="300px" />
+        <img class="img-thumbnail" src="BAMBUSA.jpg" height="400px" width="300px" />
+    </div>
+    <div class="container">
+        <table class="table table-success table-striped table-bordered border-primary">
+            <caption>
+                ENVIRONMENT TABLE
+            </caption>
+            <thead>
+                <tr>
+                    <th scope="col">Letter</th>
+                    <th scope="col">Plant</th>
+                    <th scope="col">Mountain</th>
+                    <th scope="col">Lake</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr scope="row">
+                    <td>
+                        C
+                    </td>
+                    <td>
+                        CALLIANDRA
+                    </td>
+                    <td>
+                        CAMEROON
+                    </td>
+                    <td>
+                        CANYON LAKE
+                    </td>
+
+                </tr>
+                <tr scope="row">
+                    <td>
+                        H
+                    </td>
+                    <td>
+                        HABENARIA
+                    </td>
+                    <td>
+                        HIMALCHULI
+                    </td>
+                    <td>
+                        HAGO
+                    </td>
+
+                </tr>
+                <tr scope="row">
+                    <td>
+                        E
+                    </td>
+                    <td>
+                        ERICA
+                    </td>
+                    <td>
+                        EDITH CAVELL
+                    </td>
+                    <td>
+                        EBINUR
+                    </td>
+
+                </tr>
+                <tr scope="row">
+                    <td>
+                        B
+                    </td>
+                    <td>
+                        BAMBUSA
+                    </td>
+                    <td>
+                        BELUMUT
+                    </td>
+                    <td>
+                        BAIKAL
+                    </td>
+
+                </tr>
+                <tr scope="row">
+                    <td>
+                        R
+                    </td>
+                    <td>
+                        RATIBIDA
+                    </td>
+                    <td>
+                        RAMON
+                    </td>
+                    <td>
+                        RANCO
+                    </td>
+
+                </tr>
+                <tr scope="row">
+                    <td>
+                        O
+                    </td>
+                    <td>
+                        OPHIOPOGON
+                    </td>
+                    <td>
+                        ONTAKE
+                    </td>
+                    <td>
+                        ONEGA
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+    <div class="container">
+        <label for="floatingSelectGrid">BUTTONS FOR LETTERS</label>
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-success">O</button>
+                <button type="button" class="btn btn-success">R</button>
+                <button type="button" class="btn btn-success">B</button>
+            </div>
+            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-warning">C</button>
+                <button type="button" class="btn btn-warning">H</button>
+            </div>
+            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-danger">E</button>
             </div>
         </div>
     </div>
-    <p>The plant names row breaks first.<br>Explanation:<br>The reason for the alignment of plant names vertically
-        is because of using division tags in the
-        document as well as reducing the screen size in the browser.Due to this the class with md rows break first
-        and indent vertically on one another followed by the class
-        with sm rows.The alignment of the content in the divs become vertical when the screen size is less than the
-        given condition in BootStrap.</p>
-        </div>
-        <div class="container">
-        <img class="img-fluid" src="OPHIOPOGON.jpg" height="400px" width="300px"/>
-        <img class="img-fluid" src="RATIBIDA.jpg" height="400px" width="300px"/>
-        <img class="img-fluid" src="BAMBUSA.jpg" height="400px" width="300px"/>
-        </div>
-        <div class="container">
-            <img class="img-thumbnail" src="OPHIOPOGON.jpg" height="400px" width="300px"/>
-            <img class="img-thumbnail" src="RATIBIDA.jpg" height="400px" width="300px"/>
-            <img class="img-thumbnail" src="BAMBUSA.jpg" height="400px" width="300px"/>
-                </div>
-                <div class="container">
-                <table class="table table-success table-striped table-bordered border-primary">
-                    <caption>
-                    ENVIRONMENT TABLE
-                    </caption>
-                    <thead>
-                        <tr>
-                        <th scope="col">Letter</th>
-                        <th scope="col">Plant</th>
-                        <th scope="col">Mountain</th>
-                        <th scope="col">Lake</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                        <tr scope="row">
-                            <td>
-                                C
-                            </td>
-                            <td>
-                                CALLIANDRA
-                            </td>
-                            <td>
-                                CAMEROON
-                            </td>
-                            <td>
-                                CANYON LAKE
-                            </td>
+    <br />
+    <div class="container">
 
-                        </tr>
-                        <tr scope="row">
-                            <td>
-                                H
-                            </td>
-                            <td>
-                                HABENARIA
-                            </td>
-                            <td>
-                                HIMALCHULI
-                            </td>
-                            <td>
-                                HAGO
-                            </td>
+        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            DROPDOWN BUTTON FOR BASIC AND ADVANCED
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="basic.html">BASIC HTML</a></li>
+            <li><a class="dropdown-item" href="advanced.html">ADVANCED HTML</a></li>
 
-                        </tr>
-                        <tr scope="row">
-                            <td>
-                                E
-                            </td>
-                            <td>
-                                ERICA
-                            </td>
-                            <td>
-                                EDITH CAVELL
-                            </td>
-                            <td>
-                                EBINUR
-                            </td>
+        </ul>
+    </div>
+    <br/>
+    <!-- <div class="container">
+        <h3><label>Form</label></h3>
+        <form>
+            <div class="mb-3 form-group">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3 form-group">
+                <label for="exampleInputPlant" class="form-label">Plant</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your plant">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
 
-                        </tr>
-                        <tr scope="row">
-                            <td>
-                                B
-                            </td>
-                            <td>
-                                BAMBUSA
-                            </td>
-                            <td>
-                                BELUMUT
-                            </td>
-                            <td>
-                                BAIKAL
-                            </td>
+    </div> -->
 
-                        </tr>
-                        <tr scope="row">
-                            <td>
-                                R
-                            </td>
-                            <td>
-                                RATIBIDA
-                            </td>
-                            <td>
-                                RAMON
-                            </td>
-                            <td>
-                                RANCO
-                            </td>
 
-                        </tr>
-                        <tr scope="row">
-                            <td>
-                                O
-                            </td>
-                            <td>
-                                OPHIOPOGON
-                            </td>
-                            <td>
-                                ONTAKE
-                            </td>
-                            <td>
-                                ONEGA
-                            </td>
 
-                        </tr>
-                    </tbody>
-                </table>
-                 </div>   
-                </div>
-                <div class="container">
-                    <label for="floatingSelectGrid">BUTTONS FOR LETTERS</label>
-                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">                
-                    <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
-                        <button type="button" class="btn btn-success" >O</button>
-                        <button type="button" class="btn btn-success" >R</button>
-                        <button type="button" class="btn btn-success" >B</button>
-                </div>
-                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
-                    <button type="button" class="btn btn-warning">C</button>
-                    <button type="button" class="btn btn-warning">H</button>
-                    </div>
-                    <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
-                    <button type="button" class="btn btn-danger">E</button>
-                    </div>
-                    </div>
-                    </div>
-                    <br/>
-                    <div class="container">
+    </div>
 
-                        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                        DROPDOWN BUTTON FOR BASIC AND ADVANCED
-                        </button>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="basic.html">BASIC</a></li>
-                        <li><a class="dropdown-item" href="advanced.html">ADVANCED</a></li>
-                        
-                        </ul>
 
 
 
